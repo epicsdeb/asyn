@@ -1,3 +1,9 @@
+asyn (4.34-2) unstable; urgency=medium
+
+  * Patch to disable importing CONFIG_SITE from base
+
+ -- Anton Derbenev <aderbenev@bnl.gov>  Thu, 01 Nov 2018 12:57:44 -0400
+
 asyn (4.34-1) unstable; urgency=medium
 
   * New upstream version 4.34
