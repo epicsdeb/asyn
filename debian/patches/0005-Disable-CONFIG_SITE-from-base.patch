@@ -1,0 +1,20 @@
+From: Anton Derbenev <aaderbenev@gmail.com>
+Date: Thu, 1 Nov 2018 12:52:02 -0400
+Subject: Disable CONFIG_SITE from base Upstream 4.34 introduced
+ $(SUPPORT)/configure/CONFIG_SITE include which broke Debian build.
+
+---
+ configure/CONFIG_SITE | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure/CONFIG_SITE b/configure/CONFIG_SITE
+index ae52344..c20a184 100644
+--- a/configure/CONFIG_SITE
++++ b/configure/CONFIG_SITE
+@@ -52,5 +52,5 @@ DRV_USBTMC=YES
+ # To enable linking against this library, uncomment the following line
+ # TIRPC=YES
+ 
+--include $(SUPPORT)/configure/CONFIG_SITE
++#-include $(SUPPORT)/configure/CONFIG_SITE
+ 
