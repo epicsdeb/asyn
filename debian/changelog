@@ -1,3 +1,13 @@
+asyn (4.38-1) unstable; urgency=medium
+
+  [ Priller, John ]
+  * add linitian overrides
+  * New upstream version 4.38
+  * rebased for v4.38
+  * updated control version for v4.38
+
+ -- epics <priller@frib.msu.edu>  Fri, 13 Aug 2021 13:29:42 -0400
+
 asyn (4.37-1) unstable; urgency=medium
 
   * New upstream version 4.37
