@@ -1,3 +1,9 @@
+asyn (4.43-1) UNRELEASED; urgency=medium
+
+  * New upstream version 4.43
+
+ -- Evan Daykin <daykin@frib.msu.edu>  Tue, 06 Dec 2022 11:01:00 -0500
+
 asyn (4.38-1) unstable; urgency=medium
 
   [ Priller, John ]
@@ -11,7 +17,7 @@ asyn (4.38-1) unstable; urgency=medium
 asyn (4.37-1) unstable; urgency=medium
 
   * New upstream version 4.37
-  * Rebase patch queue
+  * Rebase patch queue1
   * Bump up version in package names
 
  -- Martin Konrad <konrad@frib.msu.edu>  Tue, 19 Nov 2019 09:53:56 -0500
