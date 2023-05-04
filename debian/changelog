@@ -1,8 +1,15 @@
-asyn (4.43-1) UNRELEASED; urgency=medium
+asyn (4.43-1) unstable; urgency=medium
 
+  [ Evan Daykin ]
   * New upstream version 4.43
+  * tweak patch 0001 to apply to R4-43
+  * update maintainer to daykin for this release
 
- -- Evan Daykin <daykin@frib.msu.edu>  Tue, 06 Dec 2022 11:01:00 -0500
+  [ Priller, John ]
+  * add linitian overrides
+  * rebased for uc5
+
+ -- epics <priller@frib.msu.edu>  Thu, 04 May 2023 07:33:47 -0400
 
 asyn (4.38-1) unstable; urgency=medium
 
