@@ -10,10 +10,10 @@ to build.
  1 file changed, 48 deletions(-)
 
 diff --git a/Makefile b/Makefile
-index ed5a62f..497a5b9 100644
+index 69507c6..81cdeaf 100644
 --- a/Makefile
 +++ b/Makefile
-@@ -9,61 +9,13 @@ asyn_DEPEND_DIRS = configure
+@@ -10,61 +10,13 @@ asyn_DEPEND_DIRS = configure
  DIRS += asyn/asynPortDriver/unittest
  asyn/asynPortDriver/unittest_DEPEND_DIRS = asyn
  

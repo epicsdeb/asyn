@@ -7,10 +7,10 @@ Subject: prevent generated docs from being cleaned
  1 file changed, 2 insertions(+)
 
 diff --git a/Makefile b/Makefile
-index 290c395..ed5a62f 100644
+index 4b19f20..69507c6 100644
 --- a/Makefile
 +++ b/Makefile
-@@ -65,3 +65,5 @@ DIRS += testAsynPortClientApp
+@@ -66,3 +66,5 @@ DIRS += testAsynPortClientApp
  testAsynPortClientApp_DEPEND_DIRS = asyn
  
  include $(TOP)/configure/RULES_TOP

@@ -3,13 +3,13 @@ Date: Fri, 13 Aug 2021 13:29:41 -0400
 Subject: rebase fix configure/RELEASE
 
 ---
- configure/RELEASE | 9 ++++-----
- 1 file changed, 4 insertions(+), 5 deletions(-)
+ configure/RELEASE | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
-Index: asyn/configure/RELEASE
-===================================================================
---- asyn.orig/configure/RELEASE
-+++ asyn/configure/RELEASE
+diff --git a/configure/RELEASE b/configure/RELEASE
+index 46d231f..b0d7c65 100644
+--- a/configure/RELEASE
++++ b/configure/RELEASE
 @@ -3,7 +3,7 @@
  # Define the following Required or Optional
  # either in this file, or in a RELEASE.local
