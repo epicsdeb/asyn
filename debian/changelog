@@ -1,3 +1,9 @@
+asyn (4.44.2-1+nmu1) UNRELEASED; urgency=medium
+
+  * New upstream version 4.44.2
+
+ -- Conor Farah <farah@frib.msu.edu>  Tue, 14 May 2024 12:56:05 -0400
+
 asyn (4.43-1) unstable; urgency=medium
 
   [ Evan Daykin ]
