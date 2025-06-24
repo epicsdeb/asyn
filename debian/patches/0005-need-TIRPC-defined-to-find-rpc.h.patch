@@ -1,0 +1,21 @@
+From: "Priller, John" <priller@frib.msu.edu>
+Date: Thu, 4 May 2023 07:33:46 -0400
+Subject: need TIRPC defined to find rpc.h
+
+---
+ configure/CONFIG_SITE | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure/CONFIG_SITE b/configure/CONFIG_SITE
+index 217f9a3..b8c975f 100644
+--- a/configure/CONFIG_SITE
++++ b/configure/CONFIG_SITE
+@@ -56,7 +56,7 @@ DRV_FTDI_USE_LIBFTDI1=NO
+ 
+ # Some linux systems moved RPC related symbols to libtirpc
+ # To enable linking against this library, uncomment the following line
+-# TIRPC=YES
++TIRPC=YES
+ 
+ -include $(SUPPORT)/configure/CONFIG_SITE
+ 

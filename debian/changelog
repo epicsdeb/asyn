@@ -1,3 +1,40 @@
+asyn (4.44.2-1+nmu1) unstable; urgency=medium
+
+  * New upstream version 4.44.2
+
+ -- Conor Farah <farah@frib.msu.edu>  Tue, 14 May 2024 12:56:05 -0400
+
+asyn (4.43-1) unstable; urgency=medium
+
+  [ Evan Daykin ]
+  * New upstream version 4.43
+  * tweak patch 0001 to apply to R4-43
+  * update maintainer to daykin for this release
+
+  [ Priller, John ]
+  * add linitian overrides
+  * rebased for uc5
+
+ -- epics <priller@frib.msu.edu>  Thu, 04 May 2023 07:33:47 -0400
+
+asyn (4.38-1) unstable; urgency=medium
+
+  [ Priller, John ]
+  * add linitian overrides
+  * New upstream version 4.38
+  * rebased for v4.38
+  * updated control version for v4.38
+
+ -- epics <priller@frib.msu.edu>  Fri, 13 Aug 2021 13:29:42 -0400
+
+asyn (4.37-1) unstable; urgency=medium
+
+  * New upstream version 4.37
+  * Rebase patch queue1
+  * Bump up version in package names
+
+ -- Martin Konrad <konrad@frib.msu.edu>  Tue, 19 Nov 2019 09:53:56 -0500
+
 asyn (4.36-1) unstable; urgency=medium
 
   * New upstream version 4.36

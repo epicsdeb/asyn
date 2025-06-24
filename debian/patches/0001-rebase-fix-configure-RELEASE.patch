@@ -1,0 +1,42 @@
+From: "Priller, John" <priller@frib.msu.edu>
+Date: Fri, 13 Aug 2021 13:29:41 -0400
+Subject: rebase fix configure/RELEASE
+
+---
+ configure/RELEASE | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+Index: asyn/configure/RELEASE
+===================================================================
+--- asyn.orig/configure/RELEASE
++++ asyn/configure/RELEASE
+@@ -3,7 +3,7 @@
+ # Define the following Required or Optional
+ # either in this file, or in a RELEASE.local
+ 
+-#SUPPORT=/corvette/home/epics/devel
++SUPPORT=$(EPICS_BASE)
+ 
+ # Optional
+ # IPAC is only necessary if support for Greensprings IP488 is required
+@@ -19,17 +19,17 @@
+ # Optional
+ # For sCalcout support in asynOctet - applications include asynCalc.dbd
+ # It can be obtained here: https://github.com/epics-modules/calc
+-#CALC=$(SUPPORT)/calc-3-7-4
++#CALC=$(SUPPORT)
+ 
+ # Optional
+ # If CALC was built with SSCAN support then SSCAN must be defined for testEpicsApp
+ # It can be obtained here: https://github.com/epics-modules/sscan
+-#SSCAN=$(SUPPORT)/sscan-2-11-5
++SSCAN=$(SUPPORT)
+ 
+ # Required
+ # EPICS_BASE 3.14.6 or later is required
+ # It can be obtained here: https://github.com/epics-base/epics-base
+-#EPICS_BASE=/corvette/usr/local/epics-devel/base-7.0.7
++EPICS_BASE=/usr/lib/epics
+ 
+ -include $(TOP)/../RELEASE.local
+ -include $(TOP)/../RELEASE.$(EPICS_HOST_ARCH).local
